@@ -96,8 +96,8 @@ def copy_to_clipboard():
     
 def calculate_optimal_slider_value(aspect_ratio):
     # Given points for linear interpolation
-    x1, y1 = 0.67, 23
-    x2, y2 = 1.51, 60
+    x1, y1 = 0.67, 30
+    x2, y2 = 1.51, 70
 
     # Calculate the optimal slider value based on the aspect ratio using linear interpolation
     slider_value = y1 + ((aspect_ratio - x1) * (y2 - y1)) / (x2 - x1)
